@@ -1,0 +1,29 @@
+@import url(reset.css);
+
+h1, .article, #to-the-top {
+    color: blue;
+}
+
+[class*="me"], #nowadays {
+    color: purple;
+}
+
+#geography, #history, #culture {
+    color: green;
+}
+
+.footer > p {
+    color: darkgoldenrod;
+}
+
+.section01 ~ div {
+    color: tomato;
+}
+
+.section02 + .section03 {
+    color: chartreuse;
+}
+
+.article #culture {
+    color: crimson;
+}
