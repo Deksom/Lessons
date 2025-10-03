@@ -1,0 +1,89 @@
+@import url(reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson%20Text:ital,wght@0,400;0,700;1,400&display=swap');
+
+@font-face {
+    font-family: Italiana;
+    src: url(/fonts/Italiana/Italiana-Regular.woff2) format(woff2);
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: CinzelDecorative;
+    src: url(/fonts/CinzelDecorative/CinzelDecorative-Regular.woff2) format(woff2);
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: CinzelDecorative;
+    src: url(/fonts/CinzelDecorative/CinzelDecorative-Bold.woff2) format(woff2);
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+    font-family: Roboto, sans-serif;
+}
+
+li {
+    font-family: 'Open Sans' serif;
+}    
+
+h1 {
+    text-align: center;
+    font-family: CinzelDecorative, serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 50px;
+    text-shadow: 7px 7px 5px black;
+}
+
+
+
+#tittle_1, #tittle_2, #tittle_3, #tittle_4, #tittle_5, #tittle_6 {
+    font-weight: 700;
+    font-size: 25px;
+    color: red;
+    text-decoration: line-through;
+    text-decoration-color: white;
+}
+
+.section01 {
+    line-height: 20px;
+    text-transform: lowercase;
+    
+}
+
+#introduction {
+    font-family: 'Crimson Text', serif;
+}
+#conclusion {
+    font-family: Merriweather, serif;
+    word-spacing: 20px;
+}
+
+#CinzelDecorative {
+    font-family: CinzelDecorative, serif;
+}
+
+#Italiana {
+    font-family: Italiana, sans-serif;
+}
+
+#regular {
+    font-weight: 400;
+}
+
+#bold {
+    font-weight: 700;
+}
+
+#italic {
+    font-style: italic;
+}
