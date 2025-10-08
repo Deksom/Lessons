@@ -50,7 +50,6 @@ p {
 }
 
 .items {
-    font-size: 0;
     margin-left: -34px;
     margin-right: -34px;
 }
@@ -80,3 +79,4 @@ p {
 footer {
     margin-top: 222px;
 }
+
