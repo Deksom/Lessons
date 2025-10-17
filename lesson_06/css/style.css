@@ -1,0 +1,99 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.navigation {
+    background-color: #2F302C;
+    height: 164px;
+}
+
+.logo {
+    margin: 264px 61px 0px;
+    margin-left: 264px;
+    margin-top: 61px;
+    
+}
+
+.main {
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    height: 694px;
+}
+
+.hero {
+    padding-top: 114px;
+    margin-bottom: 250px;
+}
+
+.hero_body {
+    width: 1392px;
+    margin: 0 auto;
+}
+
+.hero_info {
+    margin-left: 696px;
+}
+
+.hero_title {
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-size: 96px;
+    font-weight: 700;
+    color: #2F302C;
+    margin-bottom: 16px;
+}
+
+.hero_span {
+    font-weight: 800;
+}
+
+.hero_subtitle {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2F302C;
+    margin-bottom: 20px;
+}
+
+.hero_text {
+    font-weight: 500;
+    color: #7E7F7C;
+    
+}
+
+.hero_underline {
+    width: 308px;
+    height: 1px;
+    background-color: #2F302C;
+    margin-bottom: 36px;
+    margin-left: 5px;
+}
+
+
+.list  {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #252B42;
+}
+
+.active_item {
+    background: url(../img/green_badge.svg) 0 0 no-repeat;
+}
+
+.inactive_item {
+    background: url(../img/gray_badge.svg) 0 0 no-repeat;
+}
+
+.active_item, .inactive_item {
+    min-height: 32px;
+    line-height: 32px;
+    margin-bottom: 15px;
+    padding-left: 42px;
+    
+}
