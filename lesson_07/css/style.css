@@ -1,5 +1,5 @@
-@import url(reset.css);
-@import url(fonts.css);
+@import url(../css/reset.css);
+@import url(../fonts/fonts.css);
 
 body {
     font-family: "Montserrat", sans-serif;
@@ -139,3 +139,4 @@ header, .dk_game_container, .path_container {
 .list_container :not(:last-child) {
     margin-bottom: 15px;
 }
+
