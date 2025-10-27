@@ -1,0 +1,141 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #252B42;
+
+}
+
+header, .dk_game_container, .path_container {
+    background-color: black;
+}
+
+.dk_logo_container {
+    margin: 0 auto;
+    width: 400px;
+}
+
+.donkey_kong {
+    font-size: 0;
+}
+
+.dk_platform, .beam_platform {
+    width: 350px;
+}
+
+.donkey_kong img:first-child {
+    margin-left: 500px;
+}
+
+.donkey_kong img:last-child {
+    vertical-align: bottom;
+}
+
+.dk_game_container {
+    background-color: black;
+}
+
+.start_container {
+    margin-left: 38%;
+    background: url("../img/supermario.png");
+    background-size: 75px;
+    background-repeat: no-repeat;
+    background-position-x: 80px;
+    height: 100px;
+    vertical-align: bottom;
+}
+
+.start_platform {
+    width: 350px;
+    background-repeat: no-repeat;
+    margin-top: 75px;
+}
+
+.path_container img {
+    display: block;
+}
+
+.path_container img:first-child {
+    width: 20px;
+    height: 100px;
+    margin-left: 45%;
+    
+}
+
+.path_container img:nth-child(2) {
+    width: 350px;
+    margin-left: 32%;
+}
+
+.path_container img:nth-child(3) {
+    width: 10px;
+    margin-left: 47%;  
+}
+
+.path_container img:nth-child(4) {
+    width: 200px;
+    margin-left: 45%;
+}
+
+.path_container img:nth-child(5) {
+    width: 25px;
+    margin-left: 52%;  
+}
+
+.path_container img:nth-child(6) {
+    width: 350px;
+    margin-left: 35%;
+}
+
+.path_container img:nth-child(7) {
+    width: 10px;
+    margin-left: 37%;  
+}
+
+.path_container img:nth-child(8) {
+    width: 200px;
+    margin-left: 36%;
+}
+
+.path_container img:last-child {
+    width: 20px;
+    height: 105px;
+    margin-left: 45.8%;
+}
+
+.path_container img:not(:first-child, :last-child) {
+    visibility: hidden;
+    opacity: 0;
+}
+.path_container img:hover,
+.path_container img:hover + img {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.list_container {
+    margin: 0 auto;
+    width: 281px;
+}
+.active_item {
+    background: url(../img/green_badge.svg) 0 0 no-repeat;
+}
+
+.inactive_item {
+    background: url(../img/gray_badge.svg) 0 0 no-repeat;
+}
+
+
+.active_item, .inactive_item {
+    min-height: 32px;
+    line-height: 32px;
+    padding-left: 42px;
+}
+
+.list_container :not(:last-child) {
+    margin-bottom: 15px;
+}
