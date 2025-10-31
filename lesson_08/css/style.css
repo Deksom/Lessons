@@ -1,0 +1,129 @@
+@import url(reset.css);
+@import url(/fonts/fonts.css);
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #252B42;
+
+}
+
+h1 {
+    margin: 0 auto;
+    width: 450px;
+    justify-content: center;
+    height: 100px;
+    background-color: bisque;
+    border-radius: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 32px;
+    line-height: 100px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.design_container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.design_container div {
+    text-align: center;
+}
+
+.image_01, .image_02 {
+    display: inline-block;
+    height: 450px;
+    width: 450px;
+    border-radius: 33px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 15px;
+
+
+}
+.image_01 {
+    background: url(../img/design-element_01.webp);
+    background-repeat: no-repeat;
+}
+
+.image_02 {
+    background: url(../img/design-element_02.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.content_container {
+    width: 1300px;
+    margin: 0 auto;
+    
+}
+
+.big_images {
+    text-align: center;
+}
+
+.image_03, .image_04 {
+    vertical-align: top;
+    display: inline-block;
+    height: 700px;
+    width: 520px;
+    border-radius: 33px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 15px;
+}
+
+img {
+    border-radius: 33px;
+    width: 486px;
+}
+
+
+
+.small_images {
+    text-align: center;
+    width: 1300px;
+    height: 720px;
+    border-radius: 33px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    margin: 0 auto;
+
+    
+}
+
+.small_images_container {
+    font-size: 0;
+    margin: 0 auto;
+    width: 1250px;
+}
+.small_images img {
+    margin: 0 auto;
+    vertical-align: top;
+    width: 33.33%;
+    
+}
+
+.small_images img:nth-child(2) {
+    padding-right: 46px;
+
+}
+
+.small_images img:not(:last-child) {
+    padding-right: 41px;
+
+}
+
+footer {
+    text-align: center;
+}
